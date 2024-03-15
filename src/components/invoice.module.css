@@ -1,0 +1,113 @@
+.head{
+    background-color: #328ff6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #ffffff;
+    height: 250px;
+}
+.left-head{
+margin-top: 80px;
+font-size: 60px;
+}
+.right-head{
+text-align: end;
+padding-top: 30px;
+line-height: 30px;
+
+}
+
+.right-head ul{
+    list-style-type: none;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.left-main ul {
+    list-style-type: none;
+
+}
+.right-main{
+    text-align: end;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.mainbox{
+    display: flex;
+    
+   
+}
+
+.box1{
+    width: 60%;
+    height: 100%;
+    background-color: #e8efff;
+    padding: 30px;
+}
+
+.box1 .p-style{
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.box1 .style-span{
+    padding-bottom: 25px ;
+}
+
+.box2{
+    width: 40%;
+    background-color: #328ff6;
+    text-align: end;
+    padding: 30px;
+    color: #ffffff;
+  
+}
+
+.box2 .p-style{
+    font-weight: 800;
+    padding-top: 25px ;
+}
+
+.box2 .dollar{
+    padding-top:15px ;
+    font-size: 32px;
+}
+
+
+.center{
+    text-align: end;
+}
+
+
+.lastpart .lastpart-span{
+    padding-top:30px ;
+    text-align: center;
+
+}
+
+.lastpart-span strong{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.lastpart .lastpart-p{
+    padding-top: 20px ;
+    text-align: center;
+   padding-left:185px ;
+   padding-right: 185px;
+}
+
+  
+ 
