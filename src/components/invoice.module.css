@@ -2,13 +2,22 @@
     background-color: #328ff6;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 25px;
     color: #ffffff;
     height: 250px;
 }
+
+.cal-icon{
+    fill: #328ff6;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom:30px ;
+   
+}
 .left-head{
-margin-top: 80px;
-font-size: 60px;
+margin-top: 15px;
+font-size: 50px;
 }
 .right-head{
 text-align: end;
@@ -47,7 +56,6 @@ line-height: 30px;
 .mainbox{
     display: flex;
     
-   
 }
 
 .box1{
@@ -91,10 +99,14 @@ line-height: 30px;
 }
 
 
+
 .lastpart .lastpart-span{
     padding-top:30px ;
     text-align: center;
 
+}
+.wave-logo{
+    vertical-align: middle;
 }
 
 .lastpart-span strong{
@@ -111,3 +123,6 @@ line-height: 30px;
 
   
  
+
+
+

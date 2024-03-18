@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './invoice.module.css'
 import Link from 'next/link'
+import Calculator from './calculator'
+import WaveLogo from './wavelogo'
 
 
 export const Invoice = () => {
@@ -8,7 +10,10 @@ export const Invoice = () => {
         <div>
             <section>
                 <div className={styles["head"]}>
+                
                     <div className={styles["left-head"]}>
+                        <div><Calculator className={styles["cal-icon"]} width={80} height = {100}/></div>
+                    
                         <span>Invoice</span>
                     </div>
                     <div className={styles["right-head"]}>
@@ -156,7 +161,7 @@ export const Invoice = () => {
 
                 <div className={styles["lastpart"]}>
                     <div className={styles["lastpart-span"]}>
-                        <span>Powered by <strong>wave</strong></span>
+                        <span>Powered by <WaveLogo className={styles["wave-logo"]} width = {134}  height ={40}/> </span>
                     </div>
 
                     <div className={styles["lastpart-p"]}>
