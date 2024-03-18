@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,39 +6,41 @@
 }
 
 body {
-  background: white;
+  background: #ffff;
   font-size: 12px;
   line-height: 20px;
   color: black;
   padding: 0 20px;
 }
 
-section{
+section {
   position: relative;
- width: 65%;
- height: 60%;
+  width: 65%;
+  height: 60%;
   padding: 20px 50px;
-  background:white;
+  background: white;
   border-radius: 10px;
   margin: 0 auto;
 }
 
-table{
+table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
   overflow: hidden;
- td, th{
-    
-    padding: 10px;
-   
+
+  td,
+  th {
+
+    padding: 20px;
+
   }
 
-  th{
+  th {
     font-weight: 600;
     font-size: larger;
   }
-  
- 
+
+
 
 }

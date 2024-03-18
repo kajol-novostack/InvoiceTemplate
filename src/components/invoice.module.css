@@ -34,7 +34,7 @@ line-height: 30px;
 .main{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px ;
 
 }
 
@@ -62,7 +62,7 @@ line-height: 30px;
     width: 60%;
     height: 100%;
     background-color: #e8efff;
-    padding: 30px;
+    padding: 20px;
 }
 
 .box1 .p-style{
@@ -78,7 +78,7 @@ line-height: 30px;
     width: 40%;
     background-color: #328ff6;
     text-align: end;
-    padding: 30px;
+    padding: 20px;
     color: #ffffff;
   
 }
